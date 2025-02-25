@@ -37,7 +37,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({ email, pageName, onPageNa
                 <h3 className="font-bold text-lg">Paramètres</h3>
                 <label className='form-control w-full'>
                     <div className='label'>
-                        <span className='label-text'>Le nom de votre page (Ce n'est pas modifiable)</span>
+                        <span className='label-text'>Le nom de votre page (Ce n&apos;est pas modifiable)</span>
                     </div>
                     {pageName ? (
                         <div >
